@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>pong_main</string>
+	<key>CFBundleExecutable</key>
+	<string>pong_main</string>
+	<key>CFBundleIconFile</key>
+	<string>generated-fe7a94439d70f7c89ba5889f54d875ea44c8539f8021f3442f39f90d5c42ad96.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>pong_main</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>pong_main</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.0.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+</dict>
+</plist>
