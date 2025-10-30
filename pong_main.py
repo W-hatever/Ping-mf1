@@ -76,8 +76,8 @@ def check_collision(ball, player, computer, ball_x_direction, score, current_col
         hit = True
         print("hit")
         score += 1
-        new_color = (random.randint(70, 255), random.randint(
-            70, 255), random.randint(70, 255))
+        new_color = (random.randint(120, 255), random.randint(
+            120, 255), random.randint(120, 255))
     elif ball.colliderect(computer) and ball_x_direction == 1:
         ball_x_direction = -1
         hit = True
@@ -165,6 +165,6 @@ while running:
     ball_speed = 3 + (score // 10)
     ball_y_speed = 2 + (score // 15)
 
-    pygame.display.flip()
+    pygame.display.flip()  # acc render all that shit or not i dont really knwo what ts dous
 
 pygame.quit()
