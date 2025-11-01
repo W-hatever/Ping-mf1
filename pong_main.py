@@ -97,7 +97,8 @@ while running:
     timer.tick(frame_rate)
     screen.fill(black)
     game_over = check_game_over(ball_x, game_over)
-    player = pygame.draw.rect(screen, white, (5, player_y, 10, 40))
+    if not game_over:
+        player = pygame.draw.rect(screen, white, (5, player_y, 10, 40))
     computer = pygame.draw.rect(screen, white, (285, computer_y, 10, 40))
     ball = pygame.draw.rect(screen, ball_color, [ball_x, ball_y, 10, 10])
     # Handle events
